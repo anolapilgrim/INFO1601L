@@ -1,16 +1,51 @@
 <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content="My first website">
+        <meta name="keywords" content="INFO1601, uwi, web">
+        <title>My First Page</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>This is my first website</h1>
+        </header>
+
+        <article>
+            <section>
+                <h2>Welcome</h2>
+            </section>
+
+           <section>
+                <figure>
+                    <img src="https://images.pexels.com/photos/2071882/pexels-photo-2071882.jpeg?cs=srgb&dl=pexels-wojciech-kumpicki-1084687-2071882.jpg&fm=jpgalt=" width="200px" height="auto"a random cat">
+                    <figcaption>Fig 1. A random cat</figcaption>
+                </figure>
+           </section>
+
+           <section>
+               <details>
+                   <summary>Hobbies</summary>
+                   <ul>
+                    <li>Reading</li>
+                    <li>Watching TV</li>
+                    <li>Music</li>
+                    <li>Running</li>
+                </ul>
+               </details>
+            </section>
+
+            <dialog id="mydialog">
+                This is a dialog
+                <a href="javascript:mydialog.removeAttribute('open')">close</a>
+            </dialog>
+
+            <a href="javascript:document.querySelector('#mydialog').setAttribute('open', true)">
+                Open Dialog
+            </a>
+
+        </article>
+
+    </body>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-  Hello world
-  <script src="script.js"></script>
-</body>
-
-</html>
